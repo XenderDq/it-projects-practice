@@ -13,6 +13,6 @@ internal class Program
         }
 
         decimal total = amount > 1500m ? amount * 0.90m : amount;
-        Console.WriteLine($"Итоговая сумма: {total:F2} руб.");
+        Console.WriteLine($"Готово Итоговая сумма: {total:F2} руб.");
     }
 }
